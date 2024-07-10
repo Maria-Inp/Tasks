@@ -1152,12 +1152,6 @@ body {
     color: var(--main-color-blue);
     font-size: 10px;
 }
-
-@media (min-width: 330px) and (max-width: 575px) {
-    .card {
-        padding: 0 30px;
-    }
-}
 /* end Task 4 */
 
 /* Task 5 */
