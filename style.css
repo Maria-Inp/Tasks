@@ -718,7 +718,7 @@ body {
 
 @media (min-width: 280px) and (max-width: 450px) {
     .work-example .modal-dialog {
-        position:fixed;
+        position: fixed;
         width: 100%;
         margin: 0;
         top: 101px;
@@ -727,6 +727,10 @@ body {
 
     .work-example .modal-body {
         padding: 8px 16px;
+    }
+
+    .work-example .modal-body p {
+        padding: 0 0 80px 0;
     }
 
     .work-example .modal-detail {
@@ -1082,6 +1086,7 @@ body {
 .card {
     border: none;
     margin-bottom: 1.5rem;
+    padding: 20px;
 }
 
 .title {
@@ -2285,3 +2290,27 @@ hr {
     }
 }
 /* end Task 6 */
+
+::-webkit-scrollbar {
+    -webkit-appearance: none;
+}
+
+::-webkit-scrollbar:vertical {
+    width: 9px;
+}
+
+::-webkit-scrollbar:horizontal {
+    height: 9px;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: rgba(0, 0, 0, 0.409);
+    /* border-radius: 8px; */
+    border: 2px solid #ffffff;
+}
+
+::-webkit-scrollbar-track {
+    /* border-radius: 8px; */
+    background-color: #ffffff;
+}
+
